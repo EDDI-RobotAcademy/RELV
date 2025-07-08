@@ -68,6 +68,10 @@ dependencies {
 
     // REST API에 대한 문서화를 자동화
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'
+    
+    // 암호화를 위한 의존성 구성
+    // 자동으로 Spring 내의 보안 설정이 매우 빡빡하게 구성됩니다.
+    implementation 'org.springframework.boot:spring-boot-starter-security'
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
